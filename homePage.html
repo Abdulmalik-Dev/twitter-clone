@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <!-- Main Style File  -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Font Google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Left Section  -->
+      <div class="left"><i class="fa-brands fa-twitter"></i></div>
+      <!-- Center Section  -->
+      <div class="center">
+        <h3>Home Page</h3>
+        <i class="fa-solid fa-bahai"></i>
+      </div>
+      <!-- Right Section  -->
+      <div class="right">
+        <input type="text" placeholder="Search in Twitter" />
+      </div>
+    </header>
+    <!-- Add New Twit Area  -->
+    <div class="add-new-twit hide">
+      <form action="">
+        <span data-hide>X</span>
+        <!-- User Info  -->
+        <i class="fa-solid fa-user"></i>
+        <div class="name">
+          <span data-theName></span>
+          <span data-theUserName></span>
+        </div>
+        <!-- The Textarea  -->
+        <textarea id="newTwit" placeholder="Type Your Twit..."></textarea>
+        <!-- Send Button  -->
+        <button data-send-twit>Send</button>
+      </form>
+    </div>
+    <!-- All Content Will Be Here  -->
+    <div class="content">
+      <!-- These Icons Will Appear In Max-width 900  -->
+      <div class="icons">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-hashtag"></i>
+        <i class="fa-solid fa-user-group"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-bookmark"></i>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-ellipsis"></i>
+        <i class="fa-solid fa-feather-pointed" data-addTwit></i>
+      </div>
+      <!-- This Section Will Appear In Min-width 900  -->
+      <aside class="left">
+        <p class="active"><i class="fa-solid fa-house"></i> Home Page</p>
+        <p><i class="fa-solid fa-hashtag"></i> Explor</p>
+        <p><i class="fa-solid fa-user-group"></i> Communities</p>
+        <p><i class="fa-solid fa-bell"></i>Alerts</p>
+        <p><i class="fa-solid fa-envelope"></i>Massages</p>
+        <p><i class="fa-solid fa-bookmark"></i>Bookmarks</p>
+        <p><i class="fa-solid fa-user"></i>Profile Personly</p>
+        <p><i class="fa-solid fa-ellipsis"></i>More</p>
+        <button data-addTwit>Twit</button>
+
+        <!-- The Profile  -->
+        <div class="profile">
+          <!-- User Info  -->
+          <i class="fa-solid fa-user"></i>
+          <div class="name">
+            <p data-theName></p>
+            <p data-theUserName></p>
+          </div>
+
+          <i class="fa-solid fa-ellipsis"></i>
+        </div>
+      </aside>
+      <!-- All Twits Will Be Here  -->
+      <main>
+        <div class="twit">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <div class="name">
+              <span data-theName></span>
+              <span data-theUserName></span>
+            </div>
+            <p class="twit-text">
+              Hi everybody. Today i made Twitter clone. I would you like it.
+              <a href="">abdulmalik-Dev.gethub.io/twitter-colne/</a>
+            </p>
+            <div>
+              <i class="fa-solid fa-comment"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </div>
+        <div class="twit">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <div class="name">
+              <span data-theName></span>
+              <span data-theUserName></span>
+            </div>
+            <p class="twit-text">
+              Hi everybody. Today i made Twitter clone. I would you like it.
+              <a href="">abdulmalik-Dev.gethub.io/twitter-colne/</a>
+            </p>
+            <div>
+              <i class="fa-solid fa-comment"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </div>
+        <div class="twit">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <div class="name">
+              <span data-theName></span>
+              <span data-theUserName></span>
+            </div>
+            <p class="twit-text">
+              Hi everybody. Today i made Twitter clone. I would you like it.
+              <a href="">abdulmalik-Dev.gethub.io/twitter-colne/</a>
+            </p>
+            <div>
+              <i class="fa-solid fa-comment"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </div>
+        <div class="twit">
+          <i class="fa-solid fa-user"></i>
+          <div>
+            <div class="name">
+              <span data-theName></span>
+              <span data-theUserName></span>
+            </div>
+            <p class="twit-text">
+              Hi everybody. Today i made Twitter clone. I would you like it.
+              <a href="">abdulmalik-Dev.gethub.io/twitter-colne/</a>
+            </p>
+            <div>
+              <i class="fa-solid fa-comment"></i>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- All Trending Will Be Here  -->
+      <aside class="right">
+        <h3>What's happening?</h3>
+        <p>
+          <span>الأزمة الأوكرانية · مباشر</span> زيلينسكي يصف محادثات السلام
+          بالـ "أكثر واقعية" ويستعد لإلقاء كلمة أمام الكونجرس الأمريكي
+        </p>
+        <p>
+          #تمكين_للموارد_البشرية
+          <span
+            >الحقوا أقوى عروض هذه السنة. اكتشفوا المزيد .. مُروَّج بواسطة
+            تمكين</span
+          >
+        </p>
+        <p>
+          <span>فقط على تويتر · متداول</span>
+          #وفاه_ساز_المشهوره
+          <span>المتداول مع #ساز_القحطاني</span>
+        </p>
+        <p>
+          <span>المتداول في المملكة العربية السعودية</span>
+          #الفصل_الدراسي_الثالث
+          <span>٩٬٤٢٨ تغريدات</span>
+        </p>
+        <p>
+          مجلة سيدتي ·
+          <span>هذا الصباح</span>
+          وفاة الفنانة العُمانية شمعة محمد إثر سكتة قلبية
+        </p>
+        <a href="#">Show More</a>
+      </aside>
+    </div>
+    <!-- These Icons Will Appear In Max-Width 500  -->
+    <footer>
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-user-group"></i>
+      <i class="fa-solid fa-bell"></i>
+      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-solid fa-feather-pointed" data-addTwit></i>
+    </footer>
+    <!-- JavaScrit File  -->
+    <script src="./scripts/userInfo.js"></script>
+  </body>
+</html>
